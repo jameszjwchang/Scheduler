@@ -2,7 +2,7 @@
 
 ---
 
-## **Template
+## Template
 
 ## [X.x.x] - Unreleased
 
@@ -32,7 +32,7 @@
 ### Fixed
 - Temporarily fixed the schedule rotation by adding an extra break day at the start of the school year so that the automatic schedule works again.
 
-## [2.0.2](iOS) - 2024-8-8
+## [2.0.2] (iOS) - 2024-8-8
 
 ### Fixed
 - Fixed an issue where the automatically break days selection was wrongly named "23-24" instead of "24-25".
