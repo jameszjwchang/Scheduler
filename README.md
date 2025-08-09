@@ -11,7 +11,7 @@
 
 [![](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1615852800)](https://apps.apple.com/us/app/scheduler-james-chang/id6449955070?mt=12)
 
-> Requires iOS 16 and macOS 13 or later.
+> Requires iOS 18 and macOS 15 or later.
 
 ## What is Scheduler?
 
