@@ -14,7 +14,7 @@
 
 ### Removed
 
-## [2.3.0] - 2025-3-25
+## [3.0.0] - Unreleased
 
 ### Changed
 
@@ -23,6 +23,12 @@
 ### Fixed
 
 ### Removed
+
+
+## [2.3.0] - 2025-3-25
+
+### Fixed
+- Added wellness day into the schedule rotation so that the schedule is showing the correct rotation again.
 
 ## [2.2.0] - 2025-3-1
 
