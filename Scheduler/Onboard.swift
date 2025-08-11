@@ -451,7 +451,7 @@ struct OnboardView: View {
     @Environment(\.colorScheme) var colorMode
     
     @AppStorage("Blocks") var Blocks: [String] = ["", "", "", "", "", "", "", ""]
-    @AppStorage("Onboard2.0") var Onboardy = true
+    @AppStorage("Onboard3.0") var Onboardy = true
     
     @Binding var onboardView: Bool
 
@@ -480,14 +480,14 @@ struct OnboardView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 144, height: 144)
                     #endif
-                    Text("Welcome to Scheduler 2.0!")
+                    Text("Welcome to Scheduler 3!")
                         .font(.system(size: 48))
                         .fontWeight(.bold)
                         .fontDesign(.default)
                         .scaleEffect(showText ? 1 : 0.9)
                         .multilineTextAlignment(.center)
                         .opacity(showText ? 1 : 0.3)
-                    Text("Updated for the 2024-2025 School Year")
+                    Text("Updated for the 2025-2026 School Year")
                         .font(.system(size: 16))
                         .padding(.top)
                         .fontDesign(.rounded)

@@ -377,7 +377,13 @@ func presetFirstDayOfSchool() -> Date {
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "yyyy-MM-dd"
     
-    return dateFormatter.date(from: "2024-08-13")!
+    return dateFormatter.date(from: "2025-08-12")!
+    
+    ///
+    /// # 24-25 School Year Preset
+    ///
+    
+//    return dateFormatter.date(from: "2024-08-13")!
 }
 
 func presetBreakDays() -> [Date] {
@@ -385,52 +391,100 @@ func presetBreakDays() -> [Date] {
     dateFormatter.dateFormat = "yyyy-MM-dd"
     
     let dateStringArray = [
-        "2024-08-13",
-        "2024-09-16",
-        "2024-09-16",
-        "2024-09-17",
-        "2024-09-30",
-        "2024-10-01",
-        "2024-10-02",
-        "2024-10-03",
-        "2024-10-04",
-        "2024-10-15",
-        "2024-11-07",
-        "2024-11-08",
-        "2024-11-29",
-        "2024-12-19",
-        "2024-12-20",
-        "2024-12-23",
-        "2024-12-24",
-        "2024-12-25",
-        "2024-12-26",
-        "2024-12-27",
-        "2024-12-30",
-        "2024-12-31",
-        "2025-01-01",
-        "2025-01-02",
-        "2025-01-03",
-        "2025-01-27",
-        "2025-01-28",
-        "2025-01-29",
-        "2025-01-30",
-        "2025-01-31",
-        "2025-02-03",
-        "2025-02-04",
-        "2025-02-27",
-        "2025-02-28",
-        "2025-03-20",
-        "2025-03-21",
-        "2025-03-31",
-        "2025-04-01",
-        "2025-04-02",
-        "2025-04-03",
-        "2025-04-04",
-        "2025-04-14",
-        "2025-05-01",
-        "2025-05-02",
-        "2025-05-30",
+        "2025-08-12",
+        "2025-09-15",
+        "2025-09-29",
+        "2025-09-30",
+        "2025-10-01",
+        "2025-10-02",
+        "2025-10-03",
+        "2025-10-06",
+        "2025-10-31",
+        "2025-11-28",
+        "2025-12-18",
+        "2025-12-19",
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-25",
+        "2025-12-26",
+        "2025-12-29",
+        "2025-12-30",
+        "2025-12-31",
+        "2026-01-01",
+        "2026-01-02",
+        "2026-01-22",
+        "2026-01-23",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-16",
+        "2026-02-17",
+        "2026-02-18",
+        "2026-02-19",
+        "2026-02-20",
+        "2026-02-23",
+        "2026-03-13",
+        "2026-03-30",
+        "2026-03-31",
+        "2026-04-01",
+        "2026-04-02",
+        "2026-04-03",
+        "2026-04-20",
+        "2026-05-01",
+        "2026-05-04",
     ]
+    
+    ///
+    /// # 24-25 School Year Break Days
+    ///
+    
+//    let dateStringArray = [
+//        "2024-08-13",
+//        "2024-09-16",
+//        "2024-09-16",
+//        "2024-09-17",
+//        "2024-09-30",
+//        "2024-10-01",
+//        "2024-10-02",
+//        "2024-10-03",
+//        "2024-10-04",
+//        "2024-10-15",
+//        "2024-11-07",
+//        "2024-11-08",
+//        "2024-11-29",
+//        "2024-12-19",
+//        "2024-12-20",
+//        "2024-12-23",
+//        "2024-12-24",
+//        "2024-12-25",
+//        "2024-12-26",
+//        "2024-12-27",
+//        "2024-12-30",
+//        "2024-12-31",
+//        "2025-01-01",
+//        "2025-01-02",
+//        "2025-01-03",
+//        "2025-01-27",
+//        "2025-01-28",
+//        "2025-01-29",
+//        "2025-01-30",
+//        "2025-01-31",
+//        "2025-02-03",
+//        "2025-02-04",
+//        "2025-02-27",
+//        "2025-02-28",
+//        "2025-03-20",
+//        "2025-03-21",
+//        "2025-03-31",
+//        "2025-04-01",
+//        "2025-04-02",
+//        "2025-04-03",
+//        "2025-04-04",
+//        "2025-04-14",
+//        "2025-05-01",
+//        "2025-05-02",
+//        "2025-05-30",
+//    ]
 
     ///
     /// # 23-24 School Year Break Days
@@ -489,7 +543,8 @@ func presetBreakDays() -> [Date] {
     }
 }
 
-extension Date: RawRepresentable {
+// @retroactive stuff
+extension Date: @retroactive RawRepresentable {
     private static let formatter = ISO8601DateFormatter()
 
     public var rawValue: String {
@@ -500,8 +555,8 @@ extension Date: RawRepresentable {
         self = Date.formatter.date(from: rawValue) ?? Date()
     }
 }
-
-extension Array: RawRepresentable where Element: Codable {
+// I added this @retroactive symbol just so that the warning error goes away; it really just does nothing 08/10/2025
+extension Array: @retroactive RawRepresentable where Element: Codable {
     public init?(rawValue: String) {
         guard let data = rawValue.data(using: .utf8),
               let result = try? JSONDecoder().decode([Element].self, from: data)
@@ -521,8 +576,8 @@ extension Array: RawRepresentable where Element: Codable {
     }
 }
 
-
-extension Color: RawRepresentable {
+// same thing about @retroactive
+extension Color: @retroactive RawRepresentable {
 
     public init?(rawValue: String) {
         guard let data = Data(base64Encoded: rawValue) else {

@@ -35,7 +35,7 @@ struct ContentView: View {
     @State private var input = ""
     @State private var wrongPassword = false
     
-    @AppStorage("Onboard2.0") var Onboardy = true
+    @AppStorage("Onboard3.0") var Onboardy = true
     @State private var onboardView = false
     
     var body: some View {

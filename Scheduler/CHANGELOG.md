@@ -14,15 +14,10 @@
 
 ### Removed
 
-## [3.0.0] - Unreleased
+## [3.0.0] - 2025-8-10
 
 ### Changed
-
-### New
-
-### Fixed
-
-### Removed
+- Updated Break Days Schedule to the 25-26 school year.
 
 
 ## [2.3.0] - 2025-3-25
