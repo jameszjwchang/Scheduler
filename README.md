@@ -1,13 +1,14 @@
 # Scheduler
 
 <p align="center" width="100%">
-    <img width="128" alt="mac1024" src="https://github.com/Jameszjwchang/SchedulerApp/assets/120231221/8d6968d1-aed7-4801-96eb-3542e6fe871e">
+<!--     <img width="128" alt="mac1024" src="https://github.com/Jameszjwchang/SchedulerApp/assets/120231221/8d6968d1-aed7-4801-96eb-3542e6fe871e"> -->
+    <img width="128" alt="mac1024" src="Scheduler/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png">
 </p>
 
-<p align="center" width="100%">
-    <img width="49%" src="https://github.com/Jameszjwchang/SchedulerApp/assets/120231221/0d899fe7-8ab6-415c-826d-07c2d68c88d7"> 
-    <img width="49%" src="https://github.com/Jameszjwchang/SchedulerApp/assets/120231221/1d664e9c-7168-4c17-92bc-1435029ee71d"> 
-</p>
+<!-- <p align="center" width="100%"> -->
+<!--     <img width="49%" src="https://github.com/Jameszjwchang/SchedulerApp/assets/120231221/0d899fe7-8ab6-415c-826d-07c2d68c88d7">  -->
+<!--     <img width="49%" src="https://github.com/Jameszjwchang/SchedulerApp/assets/120231221/1d664e9c-7168-4c17-92bc-1435029ee71d">  -->
+<!-- </p> -->
 
 [![](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1615852800)](https://apps.apple.com/us/app/scheduler-james-chang/id6449955070?mt=12)
 
