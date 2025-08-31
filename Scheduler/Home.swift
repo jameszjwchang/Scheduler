@@ -431,7 +431,7 @@ struct DashboardView: View {
                             .padding(EdgeInsets(top: 0, leading: 32, bottom: 32, trailing: 32))
                     }
                     Group {
-                        Text("Copyright © 2022-2024 James Chang\n\n")
+                        Text("© 2022-2025 James Chang\n\n")
                     }
                     .font(.system(size: 10))
                     .foregroundColor(chosenTint)
@@ -785,7 +785,7 @@ struct DashboardView: View {
             .padding(20)
             .glass(cornerRadius: (20.0, 20.0))
             .padding(.bottom)
-            Text("Copyright © 2022-2024 James Chang")
+            Text("© 2022-2025 James Chang")
                 .font(.system(size: 10))
                 .foregroundColor(chosenTint)
         }

@@ -63,7 +63,7 @@ struct BreakDaysSelectingView: View {
                 Text("Break Days\nSelection Method:")
                     .fontWeight(.bold)
                 Picker(selection: $breakDaysMode.animation()) {
-                    Text("Auto (24-25 school year, updated 2024-7-31)").tag(0)
+                    Text("Auto (25-26 school year, updated 2025-8-25)").tag(0)
                     Divider()
                     Text("Manual").tag(1)
                 } label: {}
@@ -75,7 +75,7 @@ struct BreakDaysSelectingView: View {
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                 Picker(selection: $breakDaysMode.animation()) {
-                    Text("Auto (24-25 school year, updated 2024-7-31)").tag(0)
+                    Text("Auto (25-26 school year, updated 2025-8-25)").tag(0)
                     Divider()
                     Text("Manual").tag(1)
                 } label: {}

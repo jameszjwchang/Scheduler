@@ -392,6 +392,7 @@ func presetBreakDays() -> [Date] {
     
     let dateStringArray = [
         "2025-08-12",
+        "2025-09-02",
         "2025-09-15",
         "2025-09-29",
         "2025-09-30",

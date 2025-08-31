@@ -14,6 +14,19 @@
 
 ### Removed
 
+## [3.1.0] - 2025-8-31
+
+### Changed
+- Added Tuesday's collaboration day (9/2) as a break day to the automatic break days selection for the 25-26 school year.)
+
+### Fixed
+- Solved a ton of issues, and fixed many small bugs that made the app sluggish.
+
+## [3.0.1] - 2025-8-25
+
+### Fixed
+- Updated the automatic break days selection label to reflect the 25-26 school year.
+
 ## [3.0.0] - 2025-8-10
 
 ### Changed
