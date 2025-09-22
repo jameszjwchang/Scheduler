@@ -14,6 +14,11 @@
 
 ### Removed
 
+## [3.1.1] - 2025-8-31
+
+### Changed
+- Added Tuesday's collaboration day (9/9) as a break day to the automatic break days selection for the 25-26 school year.
+
 ## [3.1.0] - 2025-8-31
 
 ### Changed
