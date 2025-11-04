@@ -19,6 +19,7 @@
 ### Changed
 - Added last Thursday's collaboration day (10/30) as a break day to the automatic break days selection for the 25-26 school year.
 
+
 ## [3.1.2] - 2025-9-22
 
 ### Changed
