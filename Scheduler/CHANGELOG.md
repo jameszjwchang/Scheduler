@@ -14,6 +14,11 @@
 
 ### Removed
 
+## [3.1.4] - 2025-11-22
+
+### Changed
+- Added November 11 and 27 as break days to the automatic break days selection for the 25-26 school year.
+
 ## [3.1.3] - 2025-11-3
 
 ### Changed
